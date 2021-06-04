@@ -8,7 +8,9 @@ Has been tested with Rasa 2.6
 
 ## Usage
 
-Add the following to your Rasa credentials.yml file.
+Add the custom channel into your Rasa directory (or a sub-folder).
+
+Then add the following to your Rasa credentials.yml file.
 ```
 websocket_channel.WebsocketInputChannel:
 ```
